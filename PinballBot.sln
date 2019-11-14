@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinballBot", "PinballBot\PinballBot.csproj", "{38F54818-2797-4E1F-8ADF-0CF368D9201F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinballMapApiClient", "PinballMapApiClient\PinballMapApiClient.csproj", "{D62695D3-921B-4548-BA64-5DE1A8F8608B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinballMapApiClient.Tests", "PinballMapApiClient.Tests\PinballMapApiClient.Tests.csproj", "{BB1CD43B-B665-4660-B695-E32821CBDF1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{38F54818-2797-4E1F-8ADF-0CF368D9201F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F54818-2797-4E1F-8ADF-0CF368D9201F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38F54818-2797-4E1F-8ADF-0CF368D9201F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62695D3-921B-4548-BA64-5DE1A8F8608B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62695D3-921B-4548-BA64-5DE1A8F8608B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62695D3-921B-4548-BA64-5DE1A8F8608B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62695D3-921B-4548-BA64-5DE1A8F8608B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1CD43B-B665-4660-B695-E32821CBDF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1CD43B-B665-4660-B695-E32821CBDF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1CD43B-B665-4660-B695-E32821CBDF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1CD43B-B665-4660-B695-E32821CBDF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

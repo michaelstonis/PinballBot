@@ -5,6 +5,12 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.29" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Google.Cloud.Dialogflow.V2" Version="1.1.0" />
+    <PackageReference Include="Alexa.NET" Version="1.10.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="**/*" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
@@ -14,5 +20,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
+    <None Update="Properties\PublishProfiles\PinballBot - Web Deploy.pubxml.user">
+      <DependentUpon>PinballBot - Web Deploy.pubxml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GoogleDialogFlow\" />
+    <Folder Include="AmazonAlexa\" />
   </ItemGroup>
 </Project>
